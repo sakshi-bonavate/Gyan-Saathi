@@ -1,0 +1,392 @@
+[
+  {
+    "id": 1,
+    "skill": "counting",
+    "difficulty": 1,
+    "question": "How many apples are there if you have 3 groups of 2 apples each?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": "6",
+    "prerequisite_skill": "counting",
+    "hint": {
+      "en": "💡 Think of 3 baskets. Each basket has 2 apples. Count all the apples together.",
+      "hi": "💡 सोचो 3 टोकरियाँ हैं। हर टोकरी में 2 सेब हैं। सभी सेब गिनो।"
+    },
+    "example": {
+      "en": "🌾 Example: 3 groups × 2 apples = ? \nCount: 2, 4, 6 — so the answer is 6.",
+      "hi": "🌾 उदाहरण: 3 समूह × 2 सेब = ? \nगिनो: 2, 4, 6 — तो जवाब है 6।"
+    },
+    "full_answer": {
+      "en": "✅ 3 × 2 = 6 apples in total.",
+      "hi": "✅ 3 × 2 = कुल 6 सेब।"
+    }
+  },
+  {
+    "id": 2,
+    "skill": "addition",
+    "difficulty": 1,
+    "question": "Raju had 14 rotis. He made 9 more. How many rotis does he have now?",
+    "options": [
+      "21",
+      "23",
+      "24",
+      "25"
+    ],
+    "answer": "23",
+    "prerequisite_skill": "counting",
+    "hint": {
+      "en": "💡 Raju started with some rotis and made more. Add the two numbers together.",
+      "hi": "💡 राजू के पास पहले से कुछ रोटियाँ थीं और उसने और बनाईं। दोनों संख्याएँ जोड़ो।"
+    },
+    "example": {
+      "en": "🌾 14 rotis + 9 rotis = ?\nCount on from 14: 15, 16 … 23. So 14 + 9 = 23.",
+      "hi": "🌾 14 रोटियाँ + 9 रोटियाँ = ?\n14 से आगे गिनो: 15, 16 … 23। तो 14 + 9 = 23।"
+    },
+    "full_answer": {
+      "en": "✅ 14 + 9 = 23 rotis.",
+      "hi": "✅ 14 + 9 = 23 रोटियाँ।"
+    }
+  },
+  {
+    "id": 3,
+    "skill": "subtraction",
+    "difficulty": 1,
+    "question": "A farmer had 20 mangoes. He sold 8. How many mangoes are left?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "answer": "12",
+    "prerequisite_skill": "counting",
+    "hint": {
+      "en": "💡 The farmer sold some mangoes — that means take away. Subtract the sold mangoes from the total.",
+      "hi": "💡 किसान ने कुछ आम बेचे — मतलब घटाना है। बेचे हुए आम कुल से घटाओ।"
+    },
+    "example": {
+      "en": "🌾 20 mangoes − 8 sold = ?\nCount back from 20: 19, 18 … 12. So 20 − 8 = 12.",
+      "hi": "🌾 20 आम − 8 बेचे = ?\n20 से पीछे गिनो: 19, 18 … 12। तो 20 − 8 = 12।"
+    },
+    "full_answer": {
+      "en": "✅ 20 − 8 = 12 mangoes are left.",
+      "hi": "✅ 20 − 8 = 12 आम बचे।"
+    }
+  },
+  {
+    "id": 4,
+    "skill": "multiplication",
+    "difficulty": 2,
+    "question": "A market stall has 4 rows of vegetables with 6 vegetables in each row. How many vegetables are there in total?",
+    "options": [
+      "20",
+      "24",
+      "26",
+      "28"
+    ],
+    "answer": "24",
+    "prerequisite_skill": "addition",
+    "hint": {
+      "en": "💡 Each row has the same number of vegetables. Multiply rows × vegetables per row.",
+      "hi": "💡 हर कतार में सब्ज़ियों की संख्या बराबर है। कतारें × हर कतार की सब्ज़ियाँ गुणा करो।"
+    },
+    "example": {
+      "en": "🌾 4 rows × 6 vegetables = ?\nAdd 6 four times: 6+6+6+6 = 24.",
+      "hi": "🌾 4 कतारें × 6 सब्ज़ियाँ = ?\n6 को चार बार जोड़ो: 6+6+6+6 = 24।"
+    },
+    "full_answer": {
+      "en": "✅ 4 × 6 = 24 vegetables.",
+      "hi": "✅ 4 × 6 = 24 सब्ज़ियाँ।"
+    }
+  },
+  {
+    "id": 5,
+    "skill": "division",
+    "difficulty": 2,
+    "question": "Priya has 18 laddoos to share equally among 3 friends. How many does each friend get?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": "6",
+    "prerequisite_skill": "subtraction",
+    "hint": {
+      "en": "💡 Sharing equally means division. Divide the total laddoos by the number of friends.",
+      "hi": "💡 बराबर बाँटना मतलब भाग। कुल लड्डुओं को दोस्तों की संख्या से भाग दो।"
+    },
+    "example": {
+      "en": "🌾 18 laddoos ÷ 3 friends = ?\nGive 1 to each friend in turns: after 6 rounds each friend has 6.",
+      "hi": "🌾 18 लड्डू ÷ 3 दोस्त = ?\nबारी-बारी 1-1 दो: 6 बार में हर दोस्त को 6 मिलते हैं।"
+    },
+    "full_answer": {
+      "en": "✅ 18 ÷ 3 = 6 laddoos per friend.",
+      "hi": "✅ 18 ÷ 3 = हर दोस्त को 6 लड्डू।"
+    }
+  },
+  {
+    "id": 6,
+    "skill": "fractions_basic",
+    "difficulty": 1,
+    "question": "A roti is cut into 4 equal pieces. Meena eats 1 piece. What fraction did she eat?",
+    "options": [
+      "1/2",
+      "1/3",
+      "1/4",
+      "2/4"
+    ],
+    "answer": "1/4",
+    "prerequisite_skill": "counting",
+    "hint": {
+      "en": "💡 A fraction shows part of a whole. Bottom number = total pieces. Top number = pieces eaten.",
+      "hi": "💡 भिन्न पूरे का हिस्सा दिखाता है। नीचे = कुल टुकड़े। ऊपर = खाए हुए टुकड़े।"
+    },
+    "example": {
+      "en": "🌾 Roti cut into 4 pieces. Meena eats 1.\nFraction eaten = pieces eaten / total pieces = 1/4.",
+      "hi": "🌾 रोटी के 4 टुकड़े। मीना ने 1 खाया।\nखाया हुआ भिन्न = खाए टुकड़े / कुल टुकड़े = 1/4।"
+    },
+    "full_answer": {
+      "en": "✅ Meena ate 1/4 of the roti.",
+      "hi": "✅ मीना ने रोटी का 1/4 हिस्सा खाया।"
+    }
+  },
+  {
+    "id": 7,
+    "skill": "fractions_basic",
+    "difficulty": 1,
+    "question": "A pizza is cut into 2 equal halves. Ram eats one half. What fraction is left?",
+    "options": [
+      "1/4",
+      "1/3",
+      "1/2",
+      "2/3"
+    ],
+    "answer": "1/2",
+    "prerequisite_skill": "counting",
+    "hint": {
+      "en": "💡 The pizza has 2 equal parts. Ram eats 1 part. How many parts are left?",
+      "hi": "💡 पिज्जा के 2 बराबर भाग हैं। राम 1 भाग खाता है। कितने भाग बचे?"
+    },
+    "example": {
+      "en": "🌾 2 halves total. Ram eats 1 half. Left = 2 − 1 = 1 piece out of 2 = 1/2.",
+      "hi": "🌾 कुल 2 आधे। राम 1 खाता है। बचा = 2 − 1 = 2 में से 1 भाग = 1/2।"
+    },
+    "full_answer": {
+      "en": "✅ 1/2 of the pizza is left.",
+      "hi": "✅ पिज्जा का 1/2 बचा है।"
+    }
+  },
+  {
+    "id": 8,
+    "skill": "fractions_compare",
+    "difficulty": 2,
+    "question": "Which fraction is bigger: 1/2 or 1/4?",
+    "options": [
+      "1/4",
+      "1/2",
+      "They are equal",
+      "Cannot say"
+    ],
+    "answer": "1/2",
+    "prerequisite_skill": "fractions_basic",
+    "hint": {
+      "en": "💡 Cut a roti into 2 pieces — each piece is big (1/2). Cut into 4 pieces — each piece is small (1/4). More cuts = smaller pieces!",
+      "hi": "💡 रोटी को 2 टुकड़ों में काटो — हर टुकड़ा बड़ा (1/2)। 4 टुकड़ों में काटो — छोटे (1/4)। जितने ज़्यादा टुकड़े, उतना छोटा।"
+    },
+    "example": {
+      "en": "🌾 Imagine one roti:\n• Cut in 2 → each half is 1/2 (bigger piece)\n• Cut in 4 → each piece is 1/4 (smaller piece)\nSo 1/2 > 1/4.",
+      "hi": "🌾 एक रोटी की कल्पना करो:\n• 2 में काटो → हर हिस्सा 1/2 (बड़ा)\n• 4 में काटो → हर हिस्सा 1/4 (छोटा)\nइसलिए 1/2 > 1/4।"
+    },
+    "full_answer": {
+      "en": "✅ 1/2 is bigger than 1/4.",
+      "hi": "✅ 1/2 , 1/4 से बड़ा है।"
+    }
+  },
+  {
+    "id": 9,
+    "skill": "fractions_compare",
+    "difficulty": 2,
+    "question": "Sunita ate 3/4 of her roti and Rani ate 2/4. Who ate more?",
+    "options": [
+      "Rani",
+      "Sunita",
+      "Both ate same",
+      "Cannot say"
+    ],
+    "answer": "Sunita",
+    "prerequisite_skill": "fractions_basic",
+    "hint": {
+      "en": "💡 Both fractions have the same bottom number (4). Just compare the top numbers — bigger top means more eaten.",
+      "hi": "💡 दोनों भिन्नों का नीचे का अंक एक जैसा है (4)। ऊपर के अंक तुलना करो — जो बड़ा है वो ज़्यादा खाया।"
+    },
+    "example": {
+      "en": "🌾 Sunita: 3/4 → top number is 3\nRani: 2/4 → top number is 2\n3 > 2, so Sunita ate more.",
+      "hi": "🌾 सुनीता: 3/4 → ऊपर का अंक 3\nरानी: 2/4 → ऊपर का अंक 2\n3 > 2, इसलिए सुनीता ने ज़्यादा खाया।"
+    },
+    "full_answer": {
+      "en": "✅ Sunita ate more — 3/4 > 2/4.",
+      "hi": "✅ सुनीता ने ज़्यादा खाया — 3/4 > 2/4।"
+    }
+  },
+  {
+    "id": 10,
+    "skill": "fractions_add",
+    "difficulty": 2,
+    "question": "Gopal ate 1/4 of a mango and his sister ate 2/4. What fraction did they eat together?",
+    "options": [
+      "2/8",
+      "3/4",
+      "3/8",
+      "2/4"
+    ],
+    "answer": "3/4",
+    "prerequisite_skill": "fractions_basic",
+    "hint": {
+      "en": "💡 Both fractions have the same bottom number (4). Just add the top numbers, keep the bottom the same.",
+      "hi": "💡 दोनों भिन्नों का नीचे का अंक एक जैसा (4)। बस ऊपर के अंक जोड़ो, नीचे वैसा ही रखो।"
+    },
+    "example": {
+      "en": "🌾 1/4 + 2/4 = (1+2)/4 = 3/4\nLike eating 1 piece of mango then 2 more — 3 pieces out of 4 total.",
+      "hi": "🌾 1/4 + 2/4 = (1+2)/4 = 3/4\nजैसे 1 टुकड़ा आम खाया, फिर 2 और — कुल 4 में से 3 टुकड़े।"
+    },
+    "full_answer": {
+      "en": "✅ 1/4 + 2/4 = 3/4.",
+      "hi": "✅ 1/4 + 2/4 = 3/4।"
+    }
+  },
+  {
+    "id": 11,
+    "skill": "fractions_add",
+    "difficulty": 2,
+    "question": "A water tank is 2/6 full in the morning. By afternoon it fills 1/6 more. How full is it now?",
+    "options": [
+      "3/12",
+      "2/6",
+      "3/6",
+      "4/6"
+    ],
+    "answer": "3/6",
+    "prerequisite_skill": "fractions_basic",
+    "hint": {
+      "en": "💡 Same bottom number (6). Add only the top numbers.",
+      "hi": "💡 नीचे का अंक एक जैसा (6)। बस ऊपर के अंक जोड़ो।"
+    },
+    "example": {
+      "en": "🌾 2/6 + 1/6 = (2+1)/6 = 3/6\nLike a tank with 2 buckets of water, adding 1 more — now 3 out of 6 buckets full.",
+      "hi": "🌾 2/6 + 1/6 = (2+1)/6 = 3/6\nजैसे टंकी में 2 बाल्टी पानी, 1 और डाली — अब 6 में से 3 भर गई।"
+    },
+    "full_answer": {
+      "en": "✅ 2/6 + 1/6 = 3/6.",
+      "hi": "✅ 2/6 + 1/6 = 3/6।"
+    }
+  },
+  {
+    "id": 12,
+    "skill": "fractions_subtract",
+    "difficulty": 2,
+    "question": "Noor had 3/4 of a guava. She ate 1/4. How much guava is left?",
+    "options": [
+      "2/8",
+      "1/4",
+      "2/4",
+      "3/8"
+    ],
+    "answer": "2/4",
+    "prerequisite_skill": "fractions_basic",
+    "hint": {
+      "en": "💡 Same bottom number (4). Subtract only the top numbers, keep the bottom the same.",
+      "hi": "💡 नीचे का अंक एक जैसा (4)। बस ऊपर के अंक घटाओ, नीचे वैसा रखो।"
+    },
+    "example": {
+      "en": "🌾 3/4 − 1/4 = (3−1)/4 = 2/4\nNoor had 3 pieces, ate 1 — 2 pieces of guava remain.",
+      "hi": "🌾 3/4 − 1/4 = (3−1)/4 = 2/4\nनूर के पास 3 टुकड़े थे, 1 खाया — 2 टुकड़े बचे।"
+    },
+    "full_answer": {
+      "en": "✅ 3/4 − 1/4 = 2/4 of guava is left.",
+      "hi": "✅ 3/4 − 1/4 = 2/4 अमरूद बचा।"
+    }
+  },
+  {
+    "id": 13,
+    "skill": "fractions_subtract",
+    "difficulty": 3,
+    "question": "A field is 5/6 planted with wheat. Cows eat 2/6 of the field. What fraction of the field still has wheat?",
+    "options": [
+      "2/6",
+      "3/6",
+      "4/6",
+      "7/6"
+    ],
+    "answer": "3/6",
+    "prerequisite_skill": "fractions_add",
+    "hint": {
+      "en": "💡 Same bottom number (6). Subtract the eaten part from the planted part.",
+      "hi": "💡 नीचे का अंक एक जैसा (6)। जो खाया उसे लगाए हुए हिस्से से घटाओ।"
+    },
+    "example": {
+      "en": "🌾 5/6 − 2/6 = (5−2)/6 = 3/6\nField had 5 parts wheat; cows ate 2 parts — 3 parts still have wheat.",
+      "hi": "🌾 5/6 − 2/6 = (5−2)/6 = 3/6\nखेत में 5 हिस्से गेहूँ था; गायों ने 2 खाया — 3 हिस्से बचे।"
+    },
+    "full_answer": {
+      "en": "✅ 5/6 − 2/6 = 3/6 of the field still has wheat.",
+      "hi": "✅ 5/6 − 2/6 = 3/6 खेत में अभी भी गेहूँ है।"
+    }
+  },
+  {
+    "id": 14,
+    "skill": "fractions_of_number",
+    "difficulty": 3,
+    "question": "There are 12 chapatis. 1/3 of them are for the children. How many chapatis are for the children?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "answer": "4",
+    "prerequisite_skill": "fractions_basic",
+    "hint": {
+      "en": "💡 '1/3 of 12' means divide 12 into 3 equal groups and take 1 group.",
+      "hi": "💡 '12 का 1/3' मतलब 12 को 3 बराबर हिस्सों में बाँटो और 1 हिस्सा लो।"
+    },
+    "example": {
+      "en": "🌾 12 ÷ 3 = 4 chapatis in each group.\n1/3 of 12 = 1 group = 4 chapatis for the children.",
+      "hi": "🌾 12 ÷ 3 = हर हिस्से में 4 चपातियाँ।\n12 का 1/3 = 1 हिस्सा = बच्चों के लिए 4 चपातियाँ।"
+    },
+    "full_answer": {
+      "en": "✅ 1/3 of 12 = 4 chapatis.",
+      "hi": "✅ 12 का 1/3 = 4 चपातियाँ।"
+    }
+  },
+  {
+    "id": 15,
+    "skill": "fractions_of_number",
+    "difficulty": 3,
+    "question": "A farmer has 20 cows. 1/4 of them are brown. How many cows are brown?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "answer": "5",
+    "prerequisite_skill": "fractions_basic",
+    "hint": {
+      "en": "💡 '1/4 of 20' means divide 20 into 4 equal groups and take 1 group.",
+      "hi": "💡 '20 का 1/4' मतलब 20 को 4 बराबर हिस्सों में बाँटो और 1 हिस्सा लो।"
+    },
+    "example": {
+      "en": "🌾 20 ÷ 4 = 5 cows in each group.\n1/4 of 20 = 1 group = 5 brown cows.",
+      "hi": "🌾 20 ÷ 4 = हर हिस्से में 5 गाएँ।\n20 का 1/4 = 1 हिस्सा = 5 भूरी गाएँ।"
+    },
+    "full_answer": {
+      "en": "✅ 1/4 of 20 = 5 brown cows.",
+      "hi": "✅ 20 का 1/4 = 5 भूरी गाएँ।"
+    }
+  }
+]
